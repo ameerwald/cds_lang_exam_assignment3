@@ -61,9 +61,7 @@ A new keyword can be entered in quotes instead of "trump" and the number 10 can 
 This has been tested on an ubuntu system on ucloud and therefore could have issues when run another way.
 
 ## Discussion of Results
-When testing the scripts, I used 500 comments and 1 epoch, which ran for less than 30 minutes but generated very poor text. When run with 10000 comments and 10 epochs, the text generated is much better but takes 3-5 hours to run even on a 64 CPU machine. 
-
-I have currently set it to run with 1000 comments over 10 epochs which generated the following text "Trump The The Country Of The Country Of The Country Of". Clearly not great but it has learned some. As mentioned, with more computational power and time the results improve but for the sake of this assignment that did not feel necessary.  
+When testing the scripts, I used 500 comments and 1 epoch, which ran for less than 30 minutes but generated very poor text. When run with 10000 comments and 10 epochs, the text generated is much better but takes 3-5 hours to run even on a 64 CPU machine. I have currently set it to run with 1000 comments over 10 epochs which generated the following text "Trump The The Country Of The Country Of The Country Of". Clearly not great but it has learned some. As mentioned, with more computational power and time the results improve but for the sake of this assignment that did not feel necessary.  
 
 
 
