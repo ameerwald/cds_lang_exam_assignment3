@@ -17,7 +17,7 @@ In this assignemnt, we were asked to create two scripts using ```TensorFlow``` t
 
 | Folder         | Description          
 | ------------- |:-------------:
-| In      | Data - normally the data would be here but it is too large to push to Github so it can be retrived from the link above 
+| Data      | Normally the data would be here but it is too large to push to Github so it can be retrived from the link above  - this folder need to be created and does not appear in the repo
 | Models  | Saved the model plus tokenizer and max_sequence_len txt file for using the model 
 | Notes | Jupyter notebook and script with notes       
 | Out  |  A text file of the generated text   
