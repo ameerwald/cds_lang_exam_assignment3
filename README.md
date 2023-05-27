@@ -7,21 +7,21 @@ This assignment can be found at my github [repo](https://github.com/ameerwald/cd
 
 ## The data
 
-  A dataset of comments on articles from *The New York Times* is used in this assignment. You can find the data [here](https://www.kaggle.com/datasets/aashita/nyt-comments). 
+A dataset of comments on articles from *The New York Times* is used in this assignment. You can find the data [here](https://www.kaggle.com/datasets/aashita/nyt-comments). 
 
 ## Assignment description
 
-In this assignemnt, we were asked to create two scripts using ```TensorFlow``` to build complex deep learning models for NLP. The first script will train and save a text generation model on some culturally significant data from *The New York Times*. The second script will use that model to generate new text from a user-suggested prompt. 
+In this assignment, we were asked to create two scripts using ```TensorFlow``` to build complex deep learning models for NLP. The first script will train and save a text generation model on some culturally significant data from *The New York Times*. The second script will use that model to generate new text from a user-suggested prompt. 
 
 # Repository 
 
 | Folder         | Description          
 | ------------- |:-------------:
-| Data    | Normally the data would be here but it is too large to push to Github so it can be retrived from the link above  - this folder need to be created and does not appear in the repo
+| Data    | This folder is hidden due to the size of the dataset 
 | Models  | Saved the model plus tokenizer and max_sequence_len txt file for using the model 
 | Notes | Jupyter notebook and script with notes       
 | Out  |  A text file of the generated text   
-| Src  | Two py scrips, 1) creating and training a model 2) generating new text based on the model    
+| Src  | Two py scripts, 1) creating and training a model 2) generating new text based on the model    
 | Utils  | Utilities script - functions we were given in class       
 
 
@@ -56,12 +56,14 @@ To personalize the text results. In the ```generate_text.py``` script the follow
 ```
 new_text = generate_text("trump", 10, model, max_sequence_len, tokenizer)
 ``` 
-A new keyword can be entered in quotes instead of "trump" and the number 10 can be adjusted - it stipulates the number of wordds in the generated text. 
+A new keyword can be entered in quotes instead of "trump" and the number 10 can be adjusted - it stipulates the number of words in the generated text. 
 
 This has been tested on an ubuntu system on ucloud and therefore could have issues when run another way.
 
 ## Discussion of Results
-When testing the scripts, I used 500 comments and 1 epoch, which ran for less than 30 minutes but generated very poor text. When run with 10000 comments and 10 epochs, the text generated is much better but takes 3-5 hours to run even on a 64 CPU machine. I have currently set it to run with 1000 comments over 10 epochs which generated the following text "Trump The The Country Of The Country Of The Country Of". Clearly not great but it has learned some. As mentioned, with more computational power and time the results improve but for the sake of this assignment that did not feel necessary.  
+When testing the scripts, I used 500 comments and 1 epoch, which ran for less than 30 minutes but generated very poor text. When run with 10000 comments and 10 epochs, the text generated is much better but takes 3-5 hours to run even on a 64 CPU machine. 
+
+I have currently set it to run with 1000 comments over 10 epochs which generated the following text "Trump The The Country Of The Country Of The Country Of". Clearly not great but it has learned some. As mentioned, with more computational power and time the results improve but for the sake of this assignment that did not feel necessary.  
 
 
 
