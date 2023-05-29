@@ -31,7 +31,7 @@ In this assignment, we were asked to create two scripts using ```TensorFlow``` t
 As the dataset is too large to store in my repo, use the link above to access the data. Download and unzip the data. Then create a folder called  ```in``` within the assignment 3 folder, along with the other folders in the repo. Then the code will run without making any changes. If the data is placed elsewhere, then the path should be updated in the code.
 
 1. Clone the repository, either on ucloud or something like worker2
-2. From the command line, at the /cds_vis_exam_assignment1/ folder level, run the following lines of code. 
+2. From the command line, at the /cds_lang_exam_assignment3/ folder level, run the following lines of code. 
 
 This will create a virtual environment, install the correct requirements.
 ``` 
